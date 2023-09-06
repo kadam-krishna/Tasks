@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task11</title>
+    <style>
+        img
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+
+        }
+        #une,#uni,#pse,#psi,#log
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50% ;
+        }
+        #uni
+        {
+            height: 15px;
+        }
+        #psi
+        {
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            padding: 10px;
+            margin: auto;
+
+        }
+        #uni
+        {
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            padding: 15px;
+            margin: auto;
+        }
+        #oth
+        {
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            width: 50%;
+            padding: 10px;
+            margin: auto;
+        }
+        
+        #log
+        {
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            padding: 15px;
+            margin: auto;
+            background-color: rgb(80, 184, 80);
+        }
+        
+        #can
+        {
+            box-sizing: border-box;
+            padding: 10px 18px;
+            border-radius: 10px;
+            background-color: rgb(243, 35, 35);
+        }
+        #forg
+        {
+            float: right;
+            color: black ;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <div id="imge">
+            <img  src="T11.png" alt="image" >
+        </div>
+        <div>
+            <label for="uname" id="une"><b>Username</b></label>
+            <input type="text" id="uni" placeholder="Enter Username" name="uname" required>
+        
+            <label for="psw" id="pse"><b>Password</b></label>
+            <input type="password" id="psi" placeholder="Enter Password" name="psw" required><br>
+        
+            <button type="submit" id="log">Login</button><br>
+            <center>
+                <input type="checkbox" checked="checked" name="remember" class="rr">Remember me
+            </center>
+        </div>
+        
+        <div id="oth" style="background-color:#f1f1f1">
+            <button type="button" id="can" class="cancelbtn">Cancel</button>
+            <span class="psw" id="forg">Forgot <a href="#" style="color: black;" >password?</a></span>
+        </div>
+    </form>
+</body>
+</html>
